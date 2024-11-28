@@ -142,3 +142,76 @@
   font-style: normal;
   padding-top: 10px;
 }
+
+@media screen and (max-width: 400px) {
+  .mainPageItemsP{
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPageImgItems{
+    width: 60vw;
+    margin-left: 70px;
+  }
+  .mainPageDivP{
+    width: 60vw;
+    margin-left: 70px;
+  }
+  .mainPageItemsP{
+    height: 100%;
+  }
+  .mainPageD{
+    height: 40vh;
+  }
+  .mainPageDP{
+    margin: 0 auto;
+    left: 0;
+    font-size: 30px;
+  }
+  .mainPageDP0{
+    font-size: 30px;
+    margin: 0 auto;
+    left: 0;
+    margin-top: 90px;
+  }
+  .mainPageDP1{
+    font-size: 30px;
+    margin: 0 auto;
+    left: 0;
+    margin-top: 160px;
+  }
+  .MainPageP{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  }
+  .MainPageP0{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    color: red;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  margin-top: 85px;
+  }
+  .MainPageP1{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  margin-top: 195px;
+  color: white;
+  }
+}
