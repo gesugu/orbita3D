@@ -34,3 +34,17 @@
   .OnePageItems{
     margin-top: 20px;
   }
+
+  @media screen and (max-width: 400px){
+    .onePageImg{
+      width: 60vw;
+      margin-left: 70px;
+    }
+    .mainPageDivP{
+      width: 60vw;
+      margin-left: 70px;
+    }
+    .onePage{
+      height: 100%;
+    }
+  }

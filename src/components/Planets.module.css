@@ -30,3 +30,17 @@
   font-style: normal;
   padding-top: 10px;
   }
+
+  @media screen and (max-width: 400px){
+    .planetsPage{
+      height: 100%;
+    }
+    .planetsPageImgItems{
+      width: 60vw;
+    margin-left: 70px;
+    }
+    .planetsPageDivP{
+      width: 60vw;
+    margin-left: 70px;
+    }
+  }

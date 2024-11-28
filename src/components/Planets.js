@@ -22,8 +22,8 @@ const Planets = () => {
     return (
         <div className={classes.planetsPage}>
             <div className={classes.planetsOnePage}>
-            {itemsStore.length > 0 ? (
-                  itemsStore.map((item, index) => (
+            {
+                 itemsStore.map((item, index) => (
                     <div key={index} className={classes.planetsPageItems}>
                                 <img onClick={() => getItemById(item.id)} className={classes.planetsPageImgItems} src={item.image} alt="image" />
                                 <div onClick={() => getItemById(item.id)} className={classes.planetsPageDivP}>
@@ -31,9 +31,7 @@ const Planets = () => {
                                 </div>
                             </div>
                   ))
-                ) : (
-                  <p>Отзывов нет</p>
-                )}
+            }
             </div>
         </div>
     );
