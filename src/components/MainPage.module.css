@@ -1,0 +1,144 @@
+.mainPageImg{
+    width: 100vw;
+    height: 90vh;
+    display: block;
+}
+.mainPage{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    display: inline-block;
+}
+.MainPageP{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.MainPageP0{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    color: red;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  margin-top: 85px;
+}
+.MainPageP1{
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  margin-top: 195px;
+  color: white;
+}
+.mainPageD{
+    width: 100vw;
+    height: 25vh;
+    position: absolute;
+    background-image: linear-gradient(
+    45deg,
+    hsl(250deg 50% 9%) 0%,
+    hsl(224deg 35% 22%) 8%,
+    hsl(221deg 34% 29%) 17%,
+    hsl(220deg 34% 34%) 25%,
+    hsl(219deg 34% 39%) 33%,
+    hsl(219deg 34% 44%) 42%,
+    hsl(219deg 34% 48%) 50%,
+    hsl(218deg 35% 51%) 58%,
+    hsl(218deg 41% 55%) 67%,
+    hsl(218deg 46% 58%) 75%,
+    hsl(218deg 52% 61%) 83%,
+    hsl(218deg 59% 64%) 92%,
+    hsl(218deg 67% 67%) 100%
+  );
+    bottom: 0;
+}
+.mainPageDP{
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    left: 38%;
+    margin-top: 30px;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.mainPageDP0{
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    left: 35%;
+    margin-top: 95px;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.mainPageDP1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    left: 37%;
+    margin-top: 130px;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.MainPageHr{
+    color: gray;
+    position: absolute;
+    width: 25vw;
+    left: 38%;
+    margin-top: 70px;
+}
+.mainPageItems{
+  width: 25vw;
+  height: 34vh;
+}
+.mainPageImgItems{
+  width: 25vw;
+  height: 34vh;
+}
+.mainPageDivP{
+  width: 25vw;
+  height: 5vh;
+  background-color: red;
+}
+.mainPageItemsP{
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  gap: 50px;
+  background-color: midnightblue;
+  width: 100vw;
+  height: 100vh;
+}
+.mainPageItems{
+  margin-top: 20px;
+}
+.mainPagePObogrevatel{
+  text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}
