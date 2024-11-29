@@ -43,4 +43,8 @@
       width: 60vw;
     margin-left: 70px;
     }
+    .planetsOnePage{
+      display: flex;
+      flex-direction: column;
+    }
   }
